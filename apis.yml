@@ -1,8 +1,24 @@
 aid: turntable
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turntable.png
 name: turntable
-description: turntable is a company surfaced as a portfolio company of slow-ventures, union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: turntable (Turntable Labs) is a consumer social-music company originally surfaced as a portfolio
+  company of slow-ventures and union-square-ventures. The original Turntable.fm social listening service
+  shut down in 2013 and its domain no longer resolves. The lineage lives on at Turntable Labs, which
+  operates two consumer music products - Hangout (a social music-streaming and group-chat app at hangout.fm /
+  hang.fm) and Turntable (a create-share-and-vibe GenAI music experience). No public API, developer portal,
+  SDKs, or API documentation are published for any of these products - this is a consumer application, not an
+  API provider. Enrichment probes (DNS, HTTP, site fetch) confirmed no developer surface as of 2026-07-21.
 url: https://raw.githubusercontent.com/api-evangelist/turntable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +27,20 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-original-domain-status: defunct  # turntable.fm no longer resolves (no A/NS records) as of 2026-07-21
+x-successor: Turntable Labs (turntablelabs.co); products Hangout (hangout.fm) and Turntable
+x-api-surface: none  # consumer music app; no public API / developer portal / SDKs found
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Music
+- Social
+- Streaming
+- Entertainment
+- Consumer
+- Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://turntable.fm
+- type: Website
+  url: https://turntablelabs.co
+- type: Blog
+  url: https://hangout.fm/blog
+- type: TermsOfService
+  url: https://hangout.fm/terms-and-service
+- type: PrivacyPolicy
+  url: https://hangout.fm/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
