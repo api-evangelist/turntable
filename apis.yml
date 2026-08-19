@@ -30,7 +30,7 @@ x-tier-reason: portfolio-lead
 x-original-domain-status: defunct  # turntable.fm no longer resolves (no A/NS records) as of 2026-07-21
 x-successor: Turntable Labs (turntablelabs.co); products Hangout (hangout.fm) and Turntable
 x-api-surface: none  # consumer music app; no public API / developer portal / SDKs found
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
