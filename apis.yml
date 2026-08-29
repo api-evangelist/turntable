@@ -31,6 +31,8 @@ description: turntable (Turntable Labs) is a consumer social-music company origi
   SDKs, or API documentation are published for any of these products - this is a consumer application, not an
   API provider. Enrichment probes (DNS, HTTP, site fetch) confirmed no developer surface as of 2026-07-21.
 url: https://raw.githubusercontent.com/api-evangelist/turntable/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
